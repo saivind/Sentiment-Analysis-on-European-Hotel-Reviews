@@ -29,6 +29,9 @@ If the Reviewer Score is more that 8 than the review is considered Positive or G
 6. Part-OfSpeech (POS) tagging: assign a tag to every word to define if it corresponds to a noun, a verb etc. using the WordNet lexical database with this library we can find the each word used is a verbs or noun and can be determined whether to remove or use the word for training the model to determine the review as good or bad.
 7. Lemmatize the text: transform every word into their root form (e.g. rooms to room, slept to sleep)
 
+![image](https://user-images.githubusercontent.com/62845002/144875232-f6106ee9-c9b2-4eac-ae11-512f4d0a3684.png)
+
+
 After the Data Preprocessing is done the reviews words remaining will be divided into train and test data set with 30 percent as test data. 
 
 The remaining training data(80percent) will be taken to train the different Machine Learning models like Logistic Regression, Navie Bayes, Support Vector Classifier(SVC), Decision Tree and Random Forest Classifier. 
